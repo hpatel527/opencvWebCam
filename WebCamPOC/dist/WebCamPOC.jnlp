@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="WebCamPOC.jnlp">
+    <information>
+        <title>WebCamPOC</title>
+        <vendor>minidude34</vendor>
+        <description>null</description>
+        <offline-allowed/>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="9.0.1+" java-vm-args="-Djava.libary.path=&quot;D:\Program Files (x86)\opencv\build\java\x64&quot; " href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="WebCamPOC.jar" size="5844" download="eager"/>
+        <jar href="lib\opencv-331.jar" size="409241" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="800" height="600" main-class="webcampoc.WebCamPOC" name="WebCamPOC"/>
+</jnlp>
+

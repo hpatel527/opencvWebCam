@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="431.0" prefWidth="463.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="webcampoc.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="199.0" layoutY="354.0" onAction="#startCamera" text="Click to start Camera" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <ImageView fx:id="currentFrame" fitHeight="194.0" fitWidth="269.0" layoutX="97.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true" />
+    </children>
+</AnchorPane>
